@@ -1,0 +1,14 @@
+<div class="container">
+  <div id="p-container">
+    <div class="row">
+      <p>{{message}}</p>
+    </div>
+    <div class="row">
+      <button class="btn" (click)="createComponent('text')">Text View</button>
+      <button class="btn" (click)="createComponent('image')">Image View</button>
+    </div>
+  </div>
+
+  <template #viewContainer></template>
+
+</div>

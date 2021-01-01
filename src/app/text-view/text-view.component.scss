@@ -1,0 +1,18 @@
+.c-container {
+    background-color: rgb(173, 201, 253);
+    padding: 30px;
+}
+
+.btn{
+    padding: 15px;
+    color: rgb(24, 24, 24);
+    background-color: burlywood;
+    border-radius: 3px;
+    border: none;
+    min-width: 100px;
+    margin: 0 3px 0 3px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 220, 175);
+}
